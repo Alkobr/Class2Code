@@ -1,0 +1,90 @@
+.SecondSignupAll {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 4vw;
+  gap: 1.5vw;
+}
+
+.Second_SignUp_body {
+  width: 100%;
+  display: flex;
+  gap: 4vw;
+}
+
+.SecondSignupCenterTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: #fff4e6;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.inputs,
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 50%;
+}
+
+.Second_SignUp_footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+:where([data-mantine-color-scheme="light"]) .m_44da308b {
+  background-color: var(--variable-collection-light);
+}
+
+.addSkillForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.addSkillBtn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+#SecondSignupImage {
+  width: 4.5vw;
+}
+
+.SecondSignupTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.3vw;
+}
+
+.SecondSignupTitle h4{
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.htmlInputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.htmlInputGroup label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.htmlInput {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px 12px;
+}

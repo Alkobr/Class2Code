@@ -1,0 +1,143 @@
+.UserProfile {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: #f7f9fc;
+}
+
+.alert-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  width: 50%;
+}
+
+.UserProfileContainer {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+}
+
+.back-button {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UserProfileContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserProfileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.UserProfileImageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.UserProfileImg .image-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.UserProfileImg .image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.UserProfileImg .image-upload {
+  display: none;
+}
+
+.UserProfileImg .image-upload-label {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.UserProfileName h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.UserProfileName p {
+  margin: 0.5rem 0 0;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.UserProfileStats {
+  display: flex;
+  gap: 2rem;
+}
+
+.UserProfileStats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UserProfileStats .stat h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #3498db;
+}
+
+.UserProfileStats .stat span {
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+.UserProfileDetails {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.UserProfileDetailsLeft,
+.UserProfileDetailsRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Textarea,
+.TextInput,
+.DateInput,
+.PillsInput {
+  margin-bottom: 1rem;
+}
+
+.UserProfileButtons {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.UserProfileDetailsRight label {
+  font-weight: 500;
+  font-size: 14px;
+}

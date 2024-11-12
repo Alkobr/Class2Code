@@ -1,0 +1,121 @@
+.NewMainNav {
+    height: 10%;
+    width: 100%;
+}
+
+.NewNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: var(--white-100, #FFF);
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.03);
+    position: fixed;
+    top: 0;
+    left:0%;
+    right: 0;
+    z-index: 1000;
+}
+.NewNavDark {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: var(--white-100, #000);
+    box-shadow: 0px 6px 4px 0px rgba(239, 239, 239, 0.086);
+    position: fixed;
+    top: 0;
+    left:0%;
+    right: 0;
+    z-index: 1000;
+}
+
+.NewTopImage {
+    width: 90%;
+    padding-left: 50px;
+    align-items: center;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.NewNavMainLogo {
+    width: 45px;
+    height: 45px;
+}
+
+.NewNavTextBar {
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -0.36px;
+}
+.NewNavTextBarDark {
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -0.36px;
+}
+
+.NewTopPartNavBar {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.NewBackSearch {
+    background-color: #f4f7fe;
+    border-radius: 49px;
+    height: 41px;
+    width: 214px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 15px;
+    
+    gap: 10px;
+
+}
+
+.NewTextSearch {
+    outline: none;
+    color: #8e9ab9;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.NewSvg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.NewProfileLogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.NewButtonSvg {
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,124 @@
+.Header h4 {
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 600;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5vw 2vw;
+}
+
+.Header h4 span {
+  color: #ee7214;
+}
+
+.Header h4 img {
+  width: 40px;
+}
+
+.HeaderLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.NavLogo h4 {
+  padding: 1vw 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.NavLogo h4 span {
+  color: #1b2559;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 600;
+}
+
+.chats {
+  padding: 2vw 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.chats button h5 {
+  font-size: 18px;
+}
+
+.Title,
+.ChatBox {
+  padding: 1vw 2vw;
+  overflow: auto;
+  max-height: 60vh;
+}
+
+.Title h2 {
+  color: #1b2559;
+}
+
+.ChatBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.question,
+.answer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.answer .Massage {
+  background-color: rgb(131, 194, 157, 0.2);
+  border: 1px solid rgb(131, 194, 157, 0.2) !important;
+}
+
+.Massage {
+  border: 1px solid rgb(27, 37, 89, 0.3);
+  padding: 0.5vw;
+  border-radius: 12px;
+}
+
+.sendMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+  position: fixed;
+  bottom: 3.5rem;
+  right: 2rem;
+  left: 22%;
+}
+
+.m_6c018570 {
+  width: 100%;
+}
+
+.sendMessage input {
+  width: 100%;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.CreateNewChat {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  left: 1rem;
+}
+
+.answer_icon {
+  max-width: 16px;
+  max-height: 16px;
+}

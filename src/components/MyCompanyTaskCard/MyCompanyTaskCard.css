@@ -1,0 +1,113 @@
+.MyCompanyTaskCardAll {
+    text-decoration: none;
+}
+
+
+.MyCompanyTaskCardDesign {
+    padding-top: 0.7vw;
+    padding-bottom: 1vw;
+    border-radius: var(--16, 16px);
+    background: #F9F9F9;
+    display: flex;
+    gap: 1vw;
+    width: fit-content;
+    flex-direction: column;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.MyCompanyTaskCardName {
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0px, 9px);
+    width: fit-content;
+}
+
+.MyCompanyTaskCardName1 {
+    display: flex;
+    border-radius: var(--4, 4px);
+    background: #973FCF;
+    align-items: center;
+    justify-content: center;
+}
+
+.MyCompanyTaskCardText {
+    color: var(--white-100, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.2vw 1vw;
+}
+
+.MyCompanyTaskCardEditButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.MyCompanyTaskCardCenter {
+    display: flex;
+    padding-right: 1vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MyCompanyTaskCardCenterPart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.MyCompanyTaskCardCenterPart1Text1 {
+    color: #0D062D;
+    font-family: Inter;
+    font-size: 16.798px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.MyCompanyTaskCardCenterPart1Text2 {
+    color: #787486;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.MyCompanyTaskCardCenterPart2Text1 {
+    color: var(--black-100, #1C1C1C);
+    font-feature-settings: 'cv11'on, 'cv01'on, 'ss01'on;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+
+.MyCompanyTaskCardCenterParagraphTexts {
+    color: var(--black-100, #1C1C1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.MyCompanyTaskCardCenterCardOther {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 1vw;
+}

@@ -1,0 +1,62 @@
+.EditMyCompaniesAll {
+  display: flex;
+  flex-direction: row;
+}
+
+.EditMyCompaniesMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditMyCompaniesCenter {
+  display: flex;
+  flex-direction: row;
+}
+
+.EditMyCompaniesFakeDiv {
+  width: 35vh;
+}
+
+.EditMyCompaniesContent {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6vw;
+  gap: 5vw;
+}
+.EditMyCompanyProfileButtonBack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.EditMyCompaniesContentData {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.EditMyCompaniesHead {
+  background-color: #fff4e6;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.EditMyCompaniesBody {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.project_name {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e7f5ff;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.team_name {
+  background-color: #f2f9f1;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,56 @@
+* {
+  /* remove underline from any text */
+  text-decoration: none !important;
+}
+
+a {
+  color: black !important;
+}
+
+.AvailableProjectDesign {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  min-height: 20rem;
+  max-width: 22rem;
+}
+
+.PlusIcon {
+  padding-bottom: 0.2rem;
+  color: #ee7214;
+}
+
+.PartTextAvailableProject {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.PartTextAvailableProject h5 {
+  font-weight: 600;
+}
+
+.PartTextAvailableProject span {
+  color: #909090;
+}
+
+.PartTextAvailableProject p {
+  color: #505060;
+  font-weight: 400;
+  max-height: 12vw;
+  overflow: auto;
+}
+
+.ReqNeed {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.RequirementsAvailableProject {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
